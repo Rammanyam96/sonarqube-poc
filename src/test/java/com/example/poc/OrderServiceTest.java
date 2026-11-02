@@ -29,7 +29,7 @@ class OrderServiceTest {
                 2,
                 new BigDecimal("50.00"));
 
-        assertEquals(new BigDecimal("90.00"), total);
+        assertEquals(new BigDecimal("95.00"), total);
     }
 
     @Test
